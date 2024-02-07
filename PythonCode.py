@@ -24,4 +24,4 @@ for n in range(iterations):
         nextArray.append([pos[0] + halfSide, pos[1]])
   posArray = nextArray
   nextArray = []
-  print(area * 8, len(array))
+  print(area * 8, len(posArray))
